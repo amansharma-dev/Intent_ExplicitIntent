@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetDataActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBarTitle_getdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentTop="true">
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/rootfirstnamelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerInParent="true">
+
+
+    <TextView
+        android:id="@+id/textview_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_firstname"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textview_description_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Aman"
+        android:layout_toEndOf="@id/textview_firstname"
+        android:textSize="24sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="0dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rootlastnamelayout"
+        android:layout_below="@id/rootfirstnamelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:id="@+id/textview_lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_lastname"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/textview_description_last"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Sharma"
+            android:layout_toEndOf="@id/textview_lastname"
+            android:textSize="24sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="0dp"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
