@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         firstName = findViewById(R.id.edittext_firstname);
         lastName = findViewById(R.id.edittext_lastname);
-        senddata = findViewById(R.id.senddata_button);
+        senddata = findViewById(R.id.senddata_btn);
 
         senddata.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -50,7 +50,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/senddata_button"
+        android:id="@+id/senddata_btn"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:layout_below="@id/rootedittext_holderlayout"
